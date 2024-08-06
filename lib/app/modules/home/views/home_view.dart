@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_kopifloss/app/utils/widget/myFriends.dart';
-import 'package:flutter_application_kopifloss/app/utils/widget/myTask.dart';
-import 'package:flutter_application_kopifloss/app/utils/widget/upcomingTask.dart';
+import 'package:flutter_application_kopifloss/app/utils/widget/menu.dart';
+import 'package:flutter_application_kopifloss/app/utils/widget/bestSeller.dart';
+import 'package:flutter_application_kopifloss/app/utils/widget/menuBaru.dart';
 
 import 'package:get/get.dart';
 
@@ -60,13 +60,13 @@ class HomeView extends GetView<HomeController> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Task Management',
+                                  'Kopi Flos',
                                   style: TextStyle(
                                       fontSize: 20,
                                       color: AppColors.primaryText),
                                 ),
                                 Text(
-                                  'Management task made easy with friends',
+                                  'Secangkir kopi penuh inspirasi',
                                   style: TextStyle(
                                       fontSize: 14,
                                       color: AppColors.primaryText),
@@ -119,7 +119,7 @@ class HomeView extends GetView<HomeController> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'My Task',
+                                    'Best Seller',
                                     style: TextStyle(
                                       color: AppColors.primaryText,
                                       fontSize: 30,

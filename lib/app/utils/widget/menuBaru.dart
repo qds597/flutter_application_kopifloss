@@ -16,7 +16,7 @@ class UpcomingTask extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              'Upcoming Task',
+              'Menu Baru',
               style: TextStyle(
                 color: AppColors.primaryText,
                 fontSize: 30,
@@ -49,18 +49,9 @@ class UpcomingTask extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(25),
                                 child: const CircleAvatar(
                                   backgroundColor: Colors.amber,
-                                  radius: 20,
+                                  radius: 50,
                                   foregroundImage: NetworkImage(
-                                      'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/31/Gear-5-Monkey-D-Luffy-628105818.jpg'),
-                                ),
-                              ),
-                              ClipRRect(
-                                borderRadius: BorderRadius.circular(25),
-                                child: const CircleAvatar(
-                                  backgroundColor: Colors.amber,
-                                  radius: 20,
-                                  foregroundImage: NetworkImage(
-                                      'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/31/Gear-5-Monkey-D-Luffy-628105818.jpg'),
+                                      'https://ourzestylife.com/wp-content/uploads/2023/03/Dalgona-Coffee-OurZestyLife-5.jpg'),
                                 ),
                               ),
                               //Membuat spasi di dalam tampilan 'Colomn dan Row'
@@ -70,37 +61,19 @@ class UpcomingTask extends StatelessWidget {
                                 width: 80,
                                 color: AppColors.primaryBg,
                                 child: const Center(
-                                    child: Text(
-                                  '100%',
-                                  style: TextStyle(
-                                    color: AppColors.primaryText,
+                                  child: Text(
+                                    'Dalgona',
+                                    style: TextStyle(
+                                      color: AppColors.primaryText,
+                                    ),
                                   ),
-                                )),
+                                ),
                               ),
                             ],
                           ),
                           const Spacer(),
-                          Container(
-                            height: 25,
-                            width: 80,
-                            color: AppColors.primaryBg,
-                            child: const Center(
-                                child: Text(
-                              '10 / 10 Task',
-                              style: TextStyle(
-                                color: AppColors.primaryText,
-                              ),
-                            )),
-                          ),
                           const Text(
-                            'Pemerograman Mobile',
-                            style: TextStyle(
-                              color: AppColors.primaryText,
-                              fontSize: 15,
-                            ),
-                          ),
-                          const Text(
-                            'Deadline 2 hari Lagi',
+                            'Harga Belum Di Tentukan',
                             style: TextStyle(
                               color: AppColors.primaryText,
                               fontSize: 15,
@@ -125,18 +98,9 @@ class UpcomingTask extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(25),
                                 child: const CircleAvatar(
                                   backgroundColor: Colors.amber,
-                                  radius: 20,
+                                  radius: 50,
                                   foregroundImage: NetworkImage(
-                                      'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/31/Gear-5-Monkey-D-Luffy-628105818.jpg'),
-                                ),
-                              ),
-                              ClipRRect(
-                                borderRadius: BorderRadius.circular(25),
-                                child: const CircleAvatar(
-                                  backgroundColor: Colors.amber,
-                                  radius: 20,
-                                  foregroundImage: NetworkImage(
-                                      'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/31/Gear-5-Monkey-D-Luffy-628105818.jpg'),
+                                      'https://ourzestylife.com/wp-content/uploads/2023/03/Dalgona-Coffee-OurZestyLife-5.jpg'),
                                 ),
                               ),
                               //Membuat spasi di dalam tampilan 'Colomn dan Row'
@@ -146,37 +110,19 @@ class UpcomingTask extends StatelessWidget {
                                 width: 80,
                                 color: AppColors.primaryBg,
                                 child: const Center(
-                                    child: Text(
-                                  '100%',
-                                  style: TextStyle(
-                                    color: AppColors.primaryText,
+                                  child: Text(
+                                    'Dalgona',
+                                    style: TextStyle(
+                                      color: AppColors.primaryText,
+                                    ),
                                   ),
-                                )),
+                                ),
                               ),
                             ],
                           ),
                           const Spacer(),
-                          Container(
-                            height: 25,
-                            width: 80,
-                            color: AppColors.primaryBg,
-                            child: const Center(
-                                child: Text(
-                              '10 / 10 Task',
-                              style: TextStyle(
-                                color: AppColors.primaryText,
-                              ),
-                            )),
-                          ),
                           const Text(
-                            'Pemerograman Mobile',
-                            style: TextStyle(
-                              color: AppColors.primaryText,
-                              fontSize: 15,
-                            ),
-                          ),
-                          const Text(
-                            'Deadline 2 hari Lagi',
+                            'Harga Belum Di Tentukan',
                             style: TextStyle(
                               color: AppColors.primaryText,
                               fontSize: 15,

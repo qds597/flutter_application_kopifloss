@@ -84,14 +84,14 @@ class SiteBar extends StatelessWidget {
                         Container(
                           height: 40,
                           width: 100,
-                          decoration: Get.currentRoute == '/task'
+                          decoration: Get.currentRoute == '/bestseller'
                               ? BoxDecoration(
                                   borderRadius: BorderRadius.circular(40),
                                   color: Colors.white,
                                 )
                               : const BoxDecoration(),
                           child: Icon(
-                            Get.currentRoute == '/task'
+                            Get.currentRoute == '/bestseller'
                                 ? Icons.chat_bubble
                                 : Icons.chat_outlined,
                             //AppColors = merubah keseluruhan tampilan 'Text' yang berada di "utils = style"
@@ -103,7 +103,7 @@ class SiteBar extends StatelessWidget {
                           height: 5,
                         ),
                         const Text(
-                          'Task',
+                          'Best Seller',
                           style: TextStyle(
                             //AppColors = merubah keseluruhan tampilan 'Text' yang berada di "utils = style"
                             color: AppColors.primaryText,
@@ -126,14 +126,14 @@ class SiteBar extends StatelessWidget {
                         Container(
                           height: 40,
                           width: 100,
-                          decoration: Get.currentRoute == '/friends'
+                          decoration: Get.currentRoute == '/menu'
                               ? BoxDecoration(
                                   borderRadius: BorderRadius.circular(40),
                                   color: Colors.white,
                                 )
                               : const BoxDecoration(),
                           child: Icon(
-                            Get.currentRoute == '/friends'
+                            Get.currentRoute == '/menu'
                                 ? Icons.how_to_reg
                                 : Icons.how_to_reg_outlined,
                             //AppColors = merubah keseluruhan tampilan 'Text' yang berada di "utils = style"
@@ -145,7 +145,7 @@ class SiteBar extends StatelessWidget {
                           height: 5,
                         ),
                         const Text(
-                          'Friends',
+                          'Menu',
                           style: TextStyle(
                             //AppColors = merubah keseluruhan tampilan 'Text' yang berada di "utils = style"
                             color: AppColors.primaryText,

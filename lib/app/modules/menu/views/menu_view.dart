@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_kopifloss/app/utils/style/App_Colors.dart';
 import 'package:flutter_application_kopifloss/app/utils/widget/header.dart';
-import 'package:flutter_application_kopifloss/app/utils/widget/myFriends.dart';
+import 'package:flutter_application_kopifloss/app/utils/widget/menu.dart';
 import 'package:flutter_application_kopifloss/app/utils/widget/sitebar.dart';
 
 import 'package:get/get.dart';
@@ -55,11 +55,11 @@ class FriendsView extends GetView<FriendsController> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Task Management',
+                                'Kopi Flos',
                                 style: TextStyle(fontSize: 20),
                               ),
                               Text(
-                                'Management task add friends with you',
+                                'Secangkir kopi penuh inspirasi',
                                 style: TextStyle(fontSize: 14),
                               ),
                             ],
@@ -103,8 +103,8 @@ class FriendsView extends GetView<FriendsController> {
                   child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          'People You May Know',
+                        const Text(
+                          'Menu Baru',
                           style: TextStyle(
                               fontSize: 30, color: AppColors.primaryText),
                         ),
@@ -128,14 +128,6 @@ class FriendsView extends GetView<FriendsController> {
                                       ),
                                     ),
                                     Positioned(
-                                      bottom: 10,
-                                      left: 50,
-                                      child: Text(
-                                        'Monkey D.Lutffy',
-                                        style: TextStyle(color: Colors.white),
-                                      ),
-                                    ),
-                                    Positioned(
                                       bottom: 0,
                                       right: 0,
                                       child: SizedBox(
@@ -150,8 +142,8 @@ class FriendsView extends GetView<FriendsController> {
                                                   BorderRadius.circular(50),
                                             ),
                                           ),
-                                          child:
-                                              Icon(Icons.add_circle_outlined),
+                                          child: const Icon(
+                                              Icons.add_circle_outlined),
                                         ),
                                       ),
                                     ),
@@ -161,7 +153,7 @@ class FriendsView extends GetView<FriendsController> {
                             },
                           ),
                         ),
-                        MyFriends(),
+                        const MyFriends(),
                       ]),
                 ),
               ),

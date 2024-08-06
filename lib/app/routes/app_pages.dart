@@ -1,15 +1,15 @@
 import 'package:get/get.dart';
 
-import '../modules/friends/bindings/friends_binding.dart';
-import '../modules/friends/views/friends_view.dart';
+import '../modules/menu/bindings/friends_binding.dart';
+import '../modules/menu/views/menu_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/login/bindings/login_binding.dart';
 import '../modules/login/views/login_view.dart';
 import '../modules/profile/bindings/profile_binding.dart';
 import '../modules/profile/views/profile_view.dart';
-import '../modules/task/bindings/task_binding.dart';
-import '../modules/task/views/task_view.dart';
+import '../modules/bestseller/bindings/task_binding.dart';
+import '../modules/bestseller/views/bestseller_view.dart';
 
 // ignore_for_file: constant_identifier_names
 

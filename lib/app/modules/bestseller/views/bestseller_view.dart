@@ -102,7 +102,7 @@ class TaskView extends GetView<TaskController> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        'My Task',
+                        'Best Seller ',
                         style: TextStyle(
                           color: AppColors.primaryText,
                           fontSize: 30,
@@ -135,19 +135,9 @@ class TaskView extends GetView<TaskController> {
                                               BorderRadius.circular(25),
                                           child: const CircleAvatar(
                                             backgroundColor: Colors.amber,
-                                            radius: 20,
+                                            radius: 50,
                                             foregroundImage: NetworkImage(
-                                                'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/31/Gear-5-Monkey-D-Luffy-628105818.jpg'),
-                                          ),
-                                        ),
-                                        ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(25),
-                                          child: const CircleAvatar(
-                                            backgroundColor: Colors.amber,
-                                            radius: 20,
-                                            foregroundImage: NetworkImage(
-                                                'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/31/Gear-5-Monkey-D-Luffy-628105818.jpg'),
+                                                'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Espresso_BW_1.jpg/800px-Espresso_BW_1.jpg'),
                                           ),
                                         ),
                                         //Membuat spasi di dalam tampilan 'Colomn dan Row'
@@ -158,7 +148,7 @@ class TaskView extends GetView<TaskController> {
                                           color: AppColors.primaryBg,
                                           child: const Center(
                                               child: Text(
-                                            '100%',
+                                            'Espresso',
                                             style: TextStyle(
                                               color: AppColors.primaryText,
                                             ),
@@ -167,28 +157,15 @@ class TaskView extends GetView<TaskController> {
                                       ],
                                     ),
                                     const Spacer(),
-                                    Container(
-                                      height: 25,
-                                      width: 80,
-                                      color: AppColors.primaryBg,
-                                      child: const Center(
-                                        child: Text(
-                                          '10 / 10 Task',
-                                          style: TextStyle(
-                                            color: AppColors.primaryText,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
                                     const Text(
-                                      'Pemerograman Mobile',
+                                      'Single Shot',
                                       style: TextStyle(
                                         color: AppColors.primaryText,
                                         fontSize: 15,
                                       ),
                                     ),
                                     const Text(
-                                      'Deadline 2 hari Lagi',
+                                      'Rp 15.000-,',
                                       style: TextStyle(
                                         color: AppColors.primaryText,
                                         fontSize: 15,
@@ -226,7 +203,7 @@ class TaskView extends GetView<TaskController> {
               ),
             );
           },
-          label: const Text('Add Task'),
+          label: const Text('Add Menu'),
           icon: const Icon(Icons.add),
         ),
       ),

@@ -27,11 +27,11 @@ class header extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Task Management',
+                'Kopi Flos',
                 style: TextStyle(fontSize: 20),
               ),
               Text(
-                'Management task add friends with you',
+                'Secangkir Kopi Penuh Inspirasi',
                 style: TextStyle(fontSize: 15),
               ),
             ],

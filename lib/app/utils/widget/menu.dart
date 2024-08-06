@@ -21,7 +21,7 @@ class MyFriends extends StatelessWidget {
               Row(
                 children: [
                   const Text(
-                    'My Friends',
+                    'Menu',
                     style: TextStyle(
                       color: AppColors.primaryText,
                       fontSize: 30,
@@ -64,11 +64,11 @@ class MyFriends extends StatelessWidget {
                             borderRadius: BorderRadius.circular(100),
                             child: const Image(
                               image: NetworkImage(
-                                  'https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/07/31/Gear-5-Monkey-D-Luffy-628105818.jpg'),
+                                  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Espresso_BW_1.jpg/800px-Espresso_BW_1.jpg'),
                             ),
                           ),
                           const Text(
-                            'Monkey D.Luffy',
+                            'Espresso',
                             style: TextStyle(color: AppColors.primaryText),
                           ),
                         ],

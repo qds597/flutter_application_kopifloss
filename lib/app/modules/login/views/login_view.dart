@@ -38,21 +38,21 @@ class LoginView extends GetView<LoginController> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Welcome',
+                              'Selamat Datang',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 70,
                               ),
                             ),
                             Text(
-                              'Please sign in',
+                              'Jangan lupa ngopi',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 30,
                               ),
                             ),
                             Text(
-                              'Ngopi',
+                              'Secangkir Kopi Penuh Inspirasi',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
@@ -81,21 +81,21 @@ class LoginView extends GetView<LoginController> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                                 Text(
-                                  'Welcome',
+                                  'Selamat Datang',
                                   style: TextStyle(
                                     color: Colors.grey,
                                     fontSize: 40,
                                   ),
                                 ),
                                 Text(
-                                  'Please sign in',
+                                  'Jangan Lupa Ngopi',
                                   style: TextStyle(
                                     color: Colors.grey,
                                     fontSize: 20,
                                   ),
                                 ),
                                 Text(
-                                  'Ngopi',
+                                  'Secangkir Kopi Penuh Inspirasi',
                                   style: TextStyle(
                                     color: Colors.grey,
                                     fontSize: 15,
@@ -105,7 +105,7 @@ class LoginView extends GetView<LoginController> {
                         : const SizedBox(),
                     //image.asset = Menampilkan/memberikan gambar untuk di tampilkan ke aplikasi
                     Image.asset(
-                      'assets/images/login.png',
+                      'assets/images/masuk.jpg',
                       height: Get.height * 0.5,
                     ),
                     //FloatingActionButton = ketika klik 'Sign In With Google' akan mengarahkan ke 'HOME'

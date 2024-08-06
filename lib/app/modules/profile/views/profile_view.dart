@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_kopifloss/app/routes/app_pages.dart';
 import 'package:flutter_application_kopifloss/app/utils/style/App_Colors.dart';
 import 'package:flutter_application_kopifloss/app/utils/widget/header.dart';
-import 'package:flutter_application_kopifloss/app/utils/widget/myTask.dart';
 import 'package:flutter_application_kopifloss/app/utils/widget/profileW.dart';
 import 'package:flutter_application_kopifloss/app/utils/widget/sitebar.dart';
 
@@ -59,11 +58,11 @@ class ProfileView extends GetView<ProfileController> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Task Management',
+                                'Kopi Flos',
                                 style: TextStyle(fontSize: 20),
                               ),
                               Text(
-                                'Management task add friends with you',
+                                'Secangkir kopi penuh inspirasi',
                                 style: TextStyle(fontSize: 14),
                               ),
                             ],
@@ -127,20 +126,6 @@ class ProfileView extends GetView<ProfileController> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         ProfileW(),
-                        Text(
-                          'My Task',
-                          style: TextStyle(
-                            color: AppColors.primaryText,
-                            fontSize: 30,
-                          ),
-                        ),
-                        SizedBox(
-                          height: 20,
-                        ),
-                        SizedBox(
-                          height: 200,
-                          child: MyTask(),
-                        ),
                       ]),
                 ),
               ),
